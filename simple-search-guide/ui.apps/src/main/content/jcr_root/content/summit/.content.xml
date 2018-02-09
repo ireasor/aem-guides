@@ -13,6 +13,6 @@
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/summit/l4080"/>
+        redirectTarget="/content/summit/l736"/>
     <en/>
 </jcr:root>

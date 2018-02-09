@@ -5,7 +5,7 @@
     <jcr:content
         cq:template="/conf/simple/settings/wcm/templates/simple-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="L4080"
+        jcr:title="L736"
         sling:resourceType="simple/components/page/base-page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -28,7 +28,4 @@
     <chapter-4/>
     <chapter-5/>
     <chapter-6/>
-    <chapter-7/>
-    <chapter-8/>
-    
 </jcr:root>
