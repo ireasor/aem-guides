@@ -69,11 +69,11 @@
                             jcr:primaryType="nt:unstructured"/>
                     </simple-site-components>
                     <policy_534176045069605
-                        jcr:description="Summit Lab L4080 content"
+                        jcr:description="Summit Lab L736 content"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="L4080 Content"
+                        jcr:title="L736 Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/foundation/components/text,/libs/foundation/components/title,group:L4080 Content]">
+                        components="[/libs/foundation/components/image,/libs/foundation/components/text,/libs/foundation/components/title,group:L736 Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_534176045069605>
                 </responsivegrid>
