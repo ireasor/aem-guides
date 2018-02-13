@@ -4,9 +4,8 @@
     <jcr:content
         cq:template="/conf/simple/settings/wcm/templates/simple-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Chapter 5 - Analyzers"
-        sling:resourceType="simple/components/page/base-page"
-        searchPaths="[/content/docs/en/aem]">
+        jcr:title="Chapter 5 - Boosting"
+        sling:resourceType="simple/components/page/base-page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -17,23 +16,23 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/title"/>
                 <search
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="simple/components/content/search"
-                    limit="10"
-                    resultStyle="thumbnail"
-                    searchPaths="/content/docs/en/aem/6-3"
-                    showFacets="false"
-                    showPagination="true"
-                    showQuickResults="false"
-                    showSuggestions="false"
-                    useExcerpt="false">
-                    <quick-suggestions
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="simple/components/content/search/suggestions"/>
-                    <quick-results
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="simple/components/content/search"
-                        limit="{Long}5"/>
+                        limit="10"
+                        resultStyle="thumbnail"
+                        searchPaths="/content/docs/en/aem/6-3"
+                        showFacets="false"
+                        showPagination="true"
+                        showQuickResults="false"
+                        showSuggestions="false"
+                        useExcerpt="true">
+                    <quick-suggestions
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="simple/components/content/search/suggestions"/>
+                    <quick-results
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="simple/components/content/search"
+                            limit="{Long}5"/>
                 </search>
             </responsivegrid>
         </root>
