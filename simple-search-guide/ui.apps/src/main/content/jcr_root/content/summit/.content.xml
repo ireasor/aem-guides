@@ -9,7 +9,7 @@
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
         jcr:mixinTypes="[cq:metaMixin]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Adobe Summit 2017"
+        jcr:title="Adobe Summit 2018"
         sling:redirect="true"
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
