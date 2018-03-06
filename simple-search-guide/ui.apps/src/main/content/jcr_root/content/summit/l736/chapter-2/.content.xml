@@ -4,7 +4,7 @@
     <jcr:content
         cq:template="/conf/simple/settings/wcm/templates/simple-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Chapter 2 - Filtering"
+        jcr:title="Chapter 2 - Indexing and Filtering"
         sling:resourceType="simple/components/page/base-page">
         <root
             jcr:primaryType="nt:unstructured"
